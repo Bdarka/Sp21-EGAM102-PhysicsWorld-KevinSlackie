@@ -676,7 +676,7 @@ GameObject:
   - component: {fileID: 367793511}
   - component: {fileID: 367793510}
   m_Layer: 0
-  m_Name: 'Down '
+  m_Name: Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2136,7 +2136,7 @@ GameObject:
   - component: {fileID: 1938343183}
   - component: {fileID: 1938343182}
   m_Layer: 0
-  m_Name: Down  (1)
+  m_Name: Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
