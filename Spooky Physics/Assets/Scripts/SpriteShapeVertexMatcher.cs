@@ -18,9 +18,20 @@ public class SpriteShapeVertexMatcher : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        spriteShapeController.spline.SetPosition(0, cornerObjects[0].localPosition);
+        for (int pointID = 0; pointID < cornerObjects.Length; pointID++)
+        {
+            spriteShapeController.spline.SetPosition(pointID, cornerObjects[pointID].localPosition);
+
+        }
+
+      
+        
+        
+        
+        /*
         spriteShapeController.spline.SetPosition(1, cornerObjects[1].localPosition);
         spriteShapeController.spline.SetPosition(2, cornerObjects[2].localPosition);
         spriteShapeController.spline.SetPosition(3, cornerObjects[3].localPosition);
+        */
     }
 }
