@@ -23,15 +23,5 @@ public class SpriteShapeVertexMatcher : MonoBehaviour
             spriteShapeController.spline.SetPosition(pointID, cornerObjects[pointID].localPosition);
 
         }
-
-      
-        
-        
-        
-        /*
-        spriteShapeController.spline.SetPosition(1, cornerObjects[1].localPosition);
-        spriteShapeController.spline.SetPosition(2, cornerObjects[2].localPosition);
-        spriteShapeController.spline.SetPosition(3, cornerObjects[3].localPosition);
-        */
     }
 }
